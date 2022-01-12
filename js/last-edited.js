@@ -1,5 +1,5 @@
-document.querySelector(".copyright").innerHTML("&copy; " + new Date().getFullYear());
+document.querySelector(".copyright").innerText("&copy; " + new Date().getFullYear());
 
-var text = document.querySelector("footer p:last-child").innerHTML ();
+var text = document.querySelector("footer p:last-child").innerText ();
 
-document.querySelector("footer p:last-child").innerHTML(text + document.lastModified);
+document.querySelector("footer p:last-child").innerText(text + document.lastModified);
