@@ -1,4 +1,4 @@
-document.querySelector (".copyright") .innerHTML ("&copy; " + Date.now().getFullYear());
+document.querySelector (".copyright") .innerHTML ("&copy; " + Date.getFullYear());
 
 var text = document.querySelector ("footer p:last-child") .innerHTML ();
 
