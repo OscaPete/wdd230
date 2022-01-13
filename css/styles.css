@@ -3,5 +3,6 @@ header {
     grid-template-columns: 70px auto;
     background-color: darkolivegreen;
     color: white;
+    text-align: center;
 }
 
