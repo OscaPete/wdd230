@@ -1,4 +1,4 @@
-document.querySelector(".copyright").innerHTML = "&copy; " + new Date().getFullYear();
+document.querySelector(".copyright").innerHTML = "&copy; " + new Date().getFullYear() + "|Oscar Peterson|Utah";
 
 //document.querySelector("footer p:last-child").innerText += document.lastModified;
 var p = document.createElement("p");
