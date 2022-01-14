@@ -7,10 +7,17 @@ header {
     background-color: darkolivegreen;
     color: white;
     padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portal-header-img {
+    grid-column: 2/3;
 }
 
 .portal-header-name {
     text-align: center;
+    grid-column: 1/4;
 }
 
 footer {
