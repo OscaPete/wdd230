@@ -3,4 +3,12 @@
         display: grid;
         grid-template-columns: 70px auto;
     }
+
+    .portal-header-img {
+        grid-column: 1/2;
+    }
+
+    .portal-header-name {
+        grid-column: 2/3;
+    }
 }
