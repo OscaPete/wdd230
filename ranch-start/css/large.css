@@ -1,3 +1,5 @@
-@media screen and (min-width: 1140px) {
-    
-}
+@media only screen and (min-width: 1028px) {
+    h1 {
+        color: blue;
+    }
+} /* end of media query */
