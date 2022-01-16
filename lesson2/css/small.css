@@ -4,7 +4,7 @@ img {
 
 main, header, footer {
     padding: 5px;
-    
+    max-width: 350px;
 }
 
 h1, h2, p {
@@ -13,7 +13,7 @@ h1, h2, p {
 
 .content {
     display: grid;
-    grid-template-columns: auto 400px auto;
+    grid-template-columns: auto 350px auto;
 }
 
 header {
@@ -24,7 +24,6 @@ header {
 }
 
 div {
-    max-width: 400px;
     background-color: silver;
     margin-bottom: 50px;
 }
