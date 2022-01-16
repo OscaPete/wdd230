@@ -1,4 +1,26 @@
 img {
     max-height: 500px;
-    max-width: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+div.contrast {
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+div.visual-hierarchy {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+div.rule-thirds {
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr;
 }
