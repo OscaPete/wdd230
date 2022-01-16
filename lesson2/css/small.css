@@ -2,38 +2,47 @@ img {
     max-height: 500px;
 }
 
-main, header, footer {
+main, header, footer, h1, h2, p, img {
     padding: 5px;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-main {
+main, header, footer {
+    margin: 0 auto;
+}
+
+.content {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: auto 400px auto;
 }
 
 div {
-    max-width: 350px;
+    max-width: 400px;
     background-color: silver;
+    margin-bottom: 50px;
 }
 
-h2 {
+h1, h2 {
     background-color: darkolivegreen;
     color: white;
 }
 
 div.contrast {
+    grid-column: 2/3;
     grid-row: 1/2;
     display: grid;
     grid-template-columns: 1fr;
 }
 
 div.visual-hierarchy {
+    grid-column: 2/3;
     grid-row: 2/3;
     display: grid;
     grid-template-columns: 1fr;
 }
 
 div.rule-thirds {
+    grid-column: 2/3;
     grid-row: 3/4;
     display: grid;
     grid-template-columns: 1fr;
