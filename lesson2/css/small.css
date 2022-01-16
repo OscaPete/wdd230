@@ -12,7 +12,7 @@ h1, h2, p {
 
 .content {
     display: grid;
-    grid-template-columns: auto 350px auto;
+    grid-template-columns: auto;
 }
 
 header {
@@ -32,21 +32,22 @@ h1, h2 {
 }
 
 div.contrast {
-    grid-column: 2/3;
+    
     grid-row: 2/3;
     display: grid;
     grid-template-columns: 1fr;
+    margin-top: 50px;
 }
 
 div.visual-hierarchy {
-    grid-column: 2/3;
+    
     grid-row: 3/4;
     display: grid;
     grid-template-columns: 1fr;
 }
 
 div.rule-thirds {
-    grid-column: 2/3;
+    
     grid-row: 4/5;
     display: grid;
     grid-template-columns: 1fr;
