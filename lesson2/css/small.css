@@ -2,9 +2,23 @@ img {
     max-height: 500px;
 }
 
+main, header, footer {
+    padding: 5px;
+}
+
 main {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+div {
+    max-width: 350px;
+    background-color: silver;
+}
+
+h2 {
+    background-color: darkolivegreen;
+    color: white;
 }
 
 div.contrast {
