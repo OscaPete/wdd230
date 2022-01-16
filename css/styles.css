@@ -9,6 +9,7 @@ header {
     padding: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 .portal-header-img {
@@ -28,4 +29,9 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+header, body, footer {
+    margin: 0 auto;
+    max-width: 100%;
 }
