@@ -1,3 +1,18 @@
 @media only screen and (min-width: 1028px) {
-   
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    div.contrast {
+        grid-column: 1/2;
+    }
+
+    div.visual-hierarchy {
+        grid-column: 2/3;
+    }
+
+    div.rule-thirds {
+        grid-column: 3/4;
+    }
 }
