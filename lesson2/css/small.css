@@ -10,9 +10,9 @@ h1, h2, p {
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
-.content {
+main {
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 1fr;
 }
 
 header {
@@ -32,25 +32,17 @@ h1, h2 {
 }
 
 div.contrast {
-    
-    grid-row: 2/3;
-    display: grid;
-    grid-template-columns: 1fr;
+ 
     margin-top: 50px;
 }
 
 div.visual-hierarchy {
-    
-    grid-row: 3/4;
-    display: grid;
-    grid-template-columns: 1fr;
+ 
 }
 
 div.rule-thirds {
     
-    grid-row: 4/5;
-    display: grid;
-    grid-template-columns: 1fr;
+
 }
 
 footer {
