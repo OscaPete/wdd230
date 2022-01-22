@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #17a8e4;
+    background-color: #545775;
     padding: 1rem 2%;
 }
 
@@ -19,7 +19,7 @@ header h2 {
 }
 
 nav {
-    background-color: #111;
+    background-color: #BFC8AD;
 }
 
 nav ul {
@@ -32,19 +32,19 @@ nav li {
 }
 
 nav li.active {
-    background-color: #333;
+    background-color: #DBCFB0;
 }
 
 nav a {
     display: block;
     padding: .8rem 0;
-    color: #eee;
+    color: black;
     text-align: center;
     text-decoration: none;
 }
 
 nav a:hover {
-    background-color: #444;
+    background-color: #DBCFB0;
 }
 
 main {
@@ -73,13 +73,13 @@ main figcaption {
 footer {
     text-align: center;
     padding: 1rem 2%;
-    background-color: #17a8e4;
-}
-
-.primary-color {
     background-color: #545775;
 }
 
-.secondary-color {
+p.primary-color {
+    background-color: #545775;
+}
+
+p.secondary-color {
     background-color: #BFC8AD;
 }
