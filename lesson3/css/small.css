@@ -53,7 +53,7 @@ main {
 }
 
 main h1 {
-    color: #17a8e4;
+    color: #545775;
 }
 
 main figure img {
@@ -78,6 +78,7 @@ footer {
 
 p.primary-color {
     background-color: #545775;
+    color: white;
 }
 
 p.secondary-color {
