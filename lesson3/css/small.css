@@ -8,6 +8,7 @@ body {
 header {
     background-color: #545775;
     padding: 1rem 2%;
+    color: white;
 }
 
 header h1 {
@@ -74,6 +75,7 @@ footer {
     text-align: center;
     padding: 1rem 2%;
     background-color: #545775;
+    color: white;
 }
 
 p.primary-color {
