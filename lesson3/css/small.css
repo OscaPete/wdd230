@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
 body {
-    font-family: Verdana;
+    font-family: 'Dongle', sans-serif;
     font-size: 16px;
 }
 
@@ -72,4 +74,12 @@ footer {
     text-align: center;
     padding: 1rem 2%;
     background-color: #17a8e4;
+}
+
+.primary-color {
+    background-color: #545775;
+}
+
+.secondary-color {
+    background-color: #BFC8AD;
 }
