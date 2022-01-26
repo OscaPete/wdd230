@@ -68,7 +68,11 @@ main figure {
 
 main h2 {
     text-align: left;
-    font-size: .8rem;
+    font-size: 2rem;
+}
+
+main p {
+    font-size: 2rem;
 }
 
 footer {
