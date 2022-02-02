@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
 html {
     -webkit-text-size-adjust: 100%;
@@ -14,12 +16,12 @@ html {
   /* ---------- BODY ---------- */
   body {
     font-size: 16px;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Dongle', sans-serif;
   }
   
   /* ---------- HEADER ---------- */
   header {
-    background-color: #1f2833;
+    background-color: #545775;
     color: #fff;
     padding-top: 0.5rem;
   }
@@ -53,7 +55,7 @@ html {
   
   /* ---------- NAVIGATION ---------- */
   nav {
-    background-color: #0b010c;
+    background-color: #BFC8AD;
   }
   
   nav ul {
@@ -80,11 +82,11 @@ html {
   }
   
   nav ul li.active {
-    background-color: #00837e;
+    background-color: #DBCFB0;
   }
   
   nav ul li a:hover {
-    background-color: #66fcf1;
+    background-color: #DBCFB0;
     color: #0b010c;
   }
   
@@ -145,7 +147,7 @@ html {
   
   /* ---------- FOOTER ---------- */
   footer {
-    background-color: #1f2833;
+    background-color: #545775;
     color: #fff;
     padding: 1.5rem 2vw;
     border-top: 20px solid #0b010c;
