@@ -48,7 +48,7 @@ html {
   }
   
   header h2.date {
-    color: #66fcf1;
+    color: #90B494;
     text-align: center;
     font-size: 1.3rem;
   }
@@ -123,12 +123,12 @@ html {
   }
   
   main section.colored {
-    background-color: #1f2833;
+    background-color: #545775;
     color: #fff;
   }
   
   main section.colored h2 {
-    color: #66fcf1;
+    color: #90B494;
   }
   
   main section h2,
@@ -150,18 +150,8 @@ html {
     background-color: #545775;
     color: #fff;
     padding: 1.5rem 2vw;
-    border-top: 20px solid #0b010c;
+    border-top: 20px solid #BFC8AD;
     text-align: center;
-  }
-  
-  footer p a {
-    text-decoration: underline;
-    font-weight: bold;
-    color: #fff;
-  }
-  
-  footer p a:hover {
-    color: #66fcf1;
   }
   
   footer img {
