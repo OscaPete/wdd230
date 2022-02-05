@@ -1,0 +1,21 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        display: grid;
+        grid-template-columns: 70px auto;
+    }
+
+    .portal-header-img {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .portal-header-name {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
