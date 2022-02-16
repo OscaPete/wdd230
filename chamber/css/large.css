@@ -31,7 +31,7 @@
       grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   
-    main article section.home-hero {
+    .hero {
       grid-column: 2/4;
       grid-row: 1/3;
     }
