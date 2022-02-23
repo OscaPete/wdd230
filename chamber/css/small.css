@@ -52,6 +52,14 @@ html {
     text-align: center;
     font-size: 1.3rem;
   }
+
+  header div.showme {
+    display: block;
+  }
+
+  header div.hideme {
+    display: none;
+  }
   
   /* ---------- NAVIGATION ---------- */
   nav {

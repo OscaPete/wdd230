@@ -24,3 +24,16 @@ function toggleMenu() {
 
 const openNav = document.querySelector('#menuButton');
 openNav.onclick = toggleMenu;
+
+//TIMEBOUND BANNER
+if (dayNumber == 1) {
+    banner.classList.add("showme");
+}
+
+else if (dayNumber == 2) {
+    banner.classlist.add("showme");
+}
+
+else {
+    banner.classlist.add("hideme");
+}
