@@ -53,6 +53,10 @@ html {
     font-size: 1.3rem;
   }
 
+  .banner {
+    padding-left: 5px;
+  }
+
   header div.showme {
     display: block;
   }
