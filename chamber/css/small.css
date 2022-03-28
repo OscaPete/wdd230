@@ -195,6 +195,70 @@ html {
   .discover-description p {
     font-size: 1.1rem;
   }
+
+  /*----------- Form ----------------*/
+.join-h {
+  text-indent: 6rem;
+}
+
+form fieldset{
+  border: none;
+}
+
+form label.top {
+  display: block;
+  padding-top: 1.5rem;
+  margin-bottom: 0.2rem;
+  
+}
+
+form label.top input, form textarea {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px;
+  border-radius: 8px;
+  padding: .75rem 40px;
+  color: #545775;
+  width: 100%;
+  max-width: 25rem;
+  background-color: rgba(48, 155, 226, 0.13);
+}
+form textarea{
+  margin-bottom: 1rem;
+}
+
+form label.sbs {
+  display: block;
+  padding: 0.5rem;
+}
+form label.top input:required, form textarea{
+  border: #545775 1.5px;
+}
+.options-member{
+  border: #545775 1.5px;
+  margin-top: 1.5rem;
+  width: 100%;
+  max-width: 25rem;
+  border-radius: 8px;  
+  padding: 0.5rem;
+}
+
+form label.top input:required:valid, form label.top textarea:required:valid{
+  border: #BFC8AD 1.5px;
+  border-left: #BFC8AD 8px;
+}
+
+form input.submitBtn{
+  border: none;
+  background-color: #545775;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 4%;
+  width: 96%;
+  max-width: 20rem;
+}
   
   /* ---------- FOOTER ---------- */
   footer {
