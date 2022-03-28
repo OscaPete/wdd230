@@ -208,3 +208,7 @@ html {
   footer img {
     width: 100px;
   }
+
+  footer a {
+    color: #fff;
+  }
