@@ -1,0 +1,100 @@
+{
+    "companies": [
+      {
+        "name": "Poketch Company",
+        "address": "Jubilife City",
+        "phone": "+54 341 338 7893",
+        "site": "poketch@joychamber.com",
+        "img": "images/logo1.webp",
+        "level": "Gold"
+      },
+      {
+        "name": "Poke Mart",
+        "address": "Jubilife City",
+        "phone": "+54 341 436 1128",
+        "site": "mart@joychamber.com",
+        "img": "images/logo2.webp",
+        "level": "Gold"
+      },
+      {
+        "name": "Pokemon Center",
+        "address": "Jubilife City",
+        "phone": "+54 341 525 3792",
+        "site": "pokecenter@joychamber.com",
+        "img": "images/logo3.png",
+        "level": "Gold"
+      },
+      {
+        "name": "Pokemon League",
+        "address": "Victory Road",
+        "phone": "+54 341 587 5495",
+        "site": "league@joychamber.com",
+        "img": "images/logo4.png",
+        "level": "Silver"
+      },
+      {
+        "name": "Floaroma Honey",
+        "address": "Floaroma Town",
+        "phone": "+54 341 463 1097",
+        "site": "flohoney@joychamber.com",
+        "img": "images/logo5.webp",
+        "level": "Silver"
+      },
+      {
+        "name": "Floaroma Berries",
+        "address": "Floaroma Town",
+        "phone": "+54 341 521 5974",
+        "site": "floberry@joychamber.com",
+        "img": "images/logo6.webp",
+        "level": "Silver"
+      },
+      {
+        "name": "Oreburgh Coal",
+        "address": "Oreburgh City",
+        "phone": "+54 341 461 2113",
+        "site": "coalore@joychamber.com",
+        "img": "images/logo7.webp",
+        "level": "Silver"
+      },
+      {
+        "name": "Trainer's School",
+        "address": "Jubilife City",
+        "phone": "+54 341 449 1478",
+        "site": "trainerschool@joychamber.com",
+        "img": "images/logo8.png",
+        "level": "Bronze"
+      },
+      {
+        "name": "Jubilife TV",
+        "address": "Jubilife City",
+        "phone": "+54 341 550 0913",
+        "site": "joytv@joychamber.com",
+        "img": "images/logo9.png",
+        "level": "Bronze"
+      },
+      {
+        "name": "Sunyshore Solar",
+        "address": "Sunyshore City",
+        "phone": "+54 341 740 0004",
+        "site": "sunysolar@joychamber.com",
+        "img": "images/logo10.png",
+        "level": "Bronze"
+      },
+      {
+        "name": "Rad Rickshaw's Cycle Shop",
+        "address": "Eterna City",
+        "phone": "+54 341 390 8882",
+        "site": "rrcycle@joychamber.com",
+        "img": "images/logo11.png",
+        "level": "NP"
+      },
+      {
+        "name": "Hearthome Contest Hall",
+        "address": "Hearthome City",
+        "phone": "+54 341 550 1963",
+        "site": "hhcontest@joychamber.com",
+        "img": "images/logo12.png",
+        "level": "NP"
+      }
+    ]
+  }
