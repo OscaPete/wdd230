@@ -77,6 +77,20 @@
       grid-template-columns: 1fr 1fr 1fr;
       gap: 4rem;
   }
+
+    /*----------- GRID MODE --------------*/
+    .grid {
+      max-width: 64rem;
+      margin: auto;
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    /*----------- LIST MODE --------------*/
+    .list {
+    max-width: 64rem;
+    margin: auto;
+    }
   
     /* ---------- FOOTER ---------- */
     footer {

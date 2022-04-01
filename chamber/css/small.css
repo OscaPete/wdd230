@@ -289,6 +289,63 @@ html {
     text-decoration: none;
     margin-bottom: 2rem;
   }
+
+  /*---------- DIRECTORY ----------*/
+
+  .directory-font h1{
+    text-align: center;
+  }
+  
+  #gridMode, #listMode{
+    background-color: #BFC8AD;
+    border: 2px solid #545775;
+    border-radius: 12px;
+    width: 3em;
+    height: 3em;
+    margin:  0 1em 1em ;
+    cursor: pointer;
+  }
+  .botons {
+    display: flex;
+    justify-content: center;
+  }
+  .grid {
+    background-color: #BFC8AD;
+  }
+  .grid section {
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 1rem;
+    background-color: #fdfeff;
+  }
+  .grid img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+  }
+  
+  
+  .list section {
+    margin: 0;
+    margin-bottom: 1em;
+    text-align: center;
+    padding: 1.1rem;
+    
+  }
+  
+  .list section:nth-child(even) {
+    background-color: #BFC8AD;
+  }
+  .list h2 {
+    color: #000;
+    font-family: "Roboto", cursive;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+  }
+  .list img {
+    display: none;
+  }
   
   /* ---------- FOOTER ---------- */
   footer {

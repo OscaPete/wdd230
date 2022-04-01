@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Directory page of the Jubilife City Chamber of Commerce"
+    />
+    <meta name="author" content="Oscar Peterson" />
+
+    <title>Business Directory | Jubilife Commerce</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-content">
+        <img src="images/jubilifelogo.webp" alt="jubilife logo" />
+        <h1>Jubilife City Chamber of Commerce</h1>
+        <h2>The City of Joy</h2>
+        <h2 class="date"><span id="currentDate"></span></h2>
+      </div>
+
+      <nav>
+        <button id="menuButton"><span>&#9776;</span><span>X</span></button>
+        <ul id="mainNav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li class="active"><a href="directory.html">Directory</a></li>
+        </ul>
+      </nav>
+
+      <div class="banner">
+        <h2>
+          Come join us for the Chamber meet and greet at 7PM on Wednesday!
+        </h2>
+      </div>
+    </header>
+
+    <main class="directory-font">
+      <h1>Directory</h1>
+        <div class="botons">
+            <button id="gridMode"><img src="images/grid-icon.png" alt="grid-icon" width="20" height="20"></button>
+            <button id="listMode"><img src='images/list-icon.png' alt="list icon" width="20" height="20"></button>
+        </div>
+        <div class="shops grid" id="on"></div>
+
+
+        
+    </main>
+
+    <footer>
+      <div class="footer-content-1">
+        <div class="footer-logo-side">
+          <img src="images/jubilifelogo.webp" alt="jubilife logo" />
+          <p>Jubilife City Chamber of Commerce<br />Sinnoh<br /><a href="https://www.google.com/maps/place/Sapporo,+Hokkaido,+Japan/@42.9849927,140.9670983,10z/data=!3m1!4b1!4m13!1m7!3m6!1s0x5f9f59209f6c888b:0x1c3cc3564fce038f!2sHokkaido,+Japan!3b1!8m2!3d43.2203266!4d142.8634737!3m4!1s0x5f0ad4755a973633:0x33937e9d4687bad5!8m2!3d43.0618647!4d141.3545609">Map</a></p>
+        </div>
+        <div class="footer-contact-side">
+          <p>thisisafakeemail@gmail.com<br />(123) 456-7890</p>
+        </div>
+      </div>
+      <p>
+        &copy; <span id="currentYear"></span> Jubilife City Chamber of Commerce | Oscar
+        Peterson | WDD 230 | Last Modification:
+        <span id="lastModif"></span>
+      </p>
+    </footer>
+    <script src="js/chamberScript.js"></script>
+    <script src="js/directory.js"></script>
+    <script src="js/lastVisit.js"></script>
+  </body>
+</html>
