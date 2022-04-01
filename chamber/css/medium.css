@@ -116,6 +116,25 @@ grid-column: 2 / 3;
 
 }
 
+/*----------- CONTACT US --------------*/
+
+
+.contact-info {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.gmap picture img{
+    max-width: 400px;
+}
+.point-contact{
+    margin-top: 3rem;
+}
+.contact_form .submitBtn {
+  max-width: 25rem;
+}
+
   
     /* ---------- FOOTER ---------- */
     footer {
