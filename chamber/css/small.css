@@ -151,6 +151,11 @@ html {
   main section p {
     line-height: 1.3rem;
   }
+
+  #currentTemp, #place {
+    padding: 0 0.8rem;
+  }
+
   
   main section.home-join,
   main section.home-spotlight-3 {
