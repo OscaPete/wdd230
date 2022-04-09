@@ -200,9 +200,7 @@ html {
   }
 
   /*----------- FORM ----------------*/
-  .join-h {
-    text-indent: 6rem;
-  }
+  
 
   form fieldset{
     border: none;
@@ -271,11 +269,8 @@ html {
     text-align: center;
     align-items: center;
   }
-  .thanks .thanks-item {
-    text-align: center;
-    font-size: 50px;
 
-  }
+  
   .thanks h1{
     font-size: xx-large;
   }
