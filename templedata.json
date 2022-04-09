@@ -5,7 +5,7 @@
         "address": "50 W North Temple, SLC, UT",
         "phone": "N/A",
         "site": "N/A",
-        "img": "#",
+        "img": "images/slctemplemini.png",
         "level": "Inactive"
       },
       {
@@ -13,7 +13,7 @@
         "address": "11022 S 4000 W, South Jordan, UT",
         "phone": "(1) 801-878-3800",
         "site": "N/A",
-        "img": "#",
+        "img": "images/oquirrhtemple.png",
         "level": "Active"
       },
       {
@@ -21,7 +21,7 @@
         "address": "10200 S Temple Drive, South Jordan, UT",
         "phone": "(1) 801-254-3003",
         "site": "N/A",
-        "img": "#",
+        "img": "images/jrivertemple.png",
         "level": "Active"
       },
       {
@@ -29,7 +29,7 @@
         "address": "2000 Beaumont Parkway, Reno, NV",
         "phone": "(1) 775-747-6688",
         "site": "N/A",
-        "img": "#",
+        "img": "images/renotemple.png",
         "level": "Active"
       }
     ]
