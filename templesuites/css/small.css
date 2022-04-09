@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+  }
+  
+  /* Apply a natural box layout model to all elements */
+  * {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  /* ---------- BODY ---------- */
+  body {
+    font-size: 16px;
+    font-family: 'Dongle', sans-serif;
+  }
+  
+  /* ---------- HEADER ---------- */
+  header {
+    background-color: #545775;
+    color: #fff;
+    padding-top: 0.5rem;
+  }
+  
+  header img {
+    float: left;
+    width: 70px;
+    margin: 0.5rem 2vw;
+  }
+  
+  header h1 {
+    margin: 0.5em 0 0 0;
+    font-size: 1.5rem;
+  }
+  
+  header h2 {
+    margin: 1em 0;
+    font-weight: normal;
+    font-size: 0.9rem;
+  }
+  
+  header h2.date {
+    margin-top: 20px;
+  }
+  
+  header h2.date {
+    color: #90B494;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+
+  .banner {
+    padding-left: 5px;
+  }
+
+  header div.showme {
+    display: block;
+  }
+
+  header div.hideme {
+    display: none;
+  }
+  
+  /* ---------- NAVIGATION ---------- */
+  nav {
+    background-color: #BFC8AD;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav button {
+    margin: 0.5rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  nav ul li a {
+    display: block;
+    font-weight: bold;
+    padding: 0.8rem 2vw;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+  }
+  
+  nav ul li.active {
+    background-color: #DBCFB0;
+  }
+  
+  nav ul li a:hover {
+    background-color: #DBCFB0;
+    color: #0b010c;
+  }
+  
+  /* Responsive Nav */
+  nav ul {
+    display: none;
+  }
+  nav ul.open {
+    display: block;
+  }
+  
+  #menuButton span:nth-child(1) {
+    display: block;
+  }
+  #menuButton span:nth-child(2) {
+    display: none;
+  }
+  
+  #menuButton.open span:nth-child(1) {
+    display: none;
+  }
+  #menuButton.open span:nth-child(2) {
+    display: block;
+  }
+  
+  /* ---------- MAIN ---------- */
+  main {
+    padding: 0.5rem 2vw;
+  }
+  
+  main section {
+    border: 2px solid #0b010c;
+    margin-bottom: 20px;
+  }
+  
+  main section.colored {
+    background-color: #545775;
+    color: #fff;
+  }
+  
+  main section.colored h2 {
+    color: #90B494;
+  }
+  
+  main section h2,
+  main section p {
+    padding: 0 0.8rem;
+  }
+  
+  main section p {
+    line-height: 1.3rem;
+  }
+
+  div.current-weather, section.colored h3, section.colored h2 {
+    padding: 0 0.8rem;
+    text-align: center;
+  }
+
+  
+  
+
+  .hero {
+    background-image: url('../images/slctemple2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+  }
+  .hero-content {
+    background-color: rgba(255, 255, 255, 0.65);
+    padding: 1.5rem;
+    text-align: center;
+    
+    margin: 2rem 10% auto 10%;
+    
+  }
+  .hero-content p {
+    font-size: 1.1rem;
+  }
+  .btn {
+    background-color: #0a4f77da;
+    color: #ffffff;
+    padding: 0.5rem;
+    border-radius: 4px 4px 4px 4px;
+  }
+
+  /* ---------- DISCOVER ---------- */
+  .discover-grid img:hover {
+    box-shadow: 0 0 50px #333; cursor: pointer;
+  }
+
+  .discover-grid img {
+    max-width: 100%;
+    padding: 0.5rem;
+  }
+
+  .discover-description p {
+    font-size: 1.1rem;
+  }
+
+  /*----------- FORM ----------------*/
+  .join-h {
+    text-indent: 6rem;
+  }
+
+  form fieldset{
+    border: none;
+  }
+
+  form label.top {
+    display: block;
+    padding-top: 1.5rem;
+    margin-bottom: 0.2rem;
+    
+  }
+
+  form label.top input, form textarea {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px;
+    border-radius: 8px;
+    padding: .75rem 40px;
+    color: #545775;
+    width: 100%;
+    max-width: 25rem;
+    background-color: rgba(48, 155, 226, 0.13);
+  }
+  form textarea{
+    margin-bottom: 1rem;
+  }
+
+  form label.sbs {
+    display: block;
+    padding: 0.5rem;
+  }
+  form label.top input:required, form textarea{
+    border: #545775 1.5px;
+  }
+  .options-member{
+    border: #545775 1.5px;
+    margin-top: 1.5rem;
+    width: 100%;
+    max-width: 25rem;
+    border-radius: 8px;  
+    padding: 0.5rem;
+  }
+
+  form label.top input:required:valid, form label.top textarea:required:valid{
+    border: #BFC8AD 1.5px;
+    border-left: #BFC8AD 8px;
+  }
+
+  form input.submitBtn{
+    border: none;
+    background-color: #545775;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 4%;
+    width: 96%;
+    max-width: 20rem;
+  }
+
+/*----------- THANK YOU --------------*/
+
+  .thanks {
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+    align-items: center;
+  }
+  .thanks .thanks-item {
+    text-align: center;
+    font-size: 50px;
+
+  }
+  .thanks h1{
+    font-size: xx-large;
+  }
+  .thanks p {
+    font-size: larger;
+  }
+  .thanks a {
+    color: white;
+    background-color: #545775;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    margin-bottom: 2rem;
+  }
+
+  /*---------- DIRECTORY ----------*/
+
+  .directory-font h1{
+    text-align: center;
+  }
+  
+  #gridMode, #listMode{
+    background-color: #BFC8AD;
+    border: 2px solid #545775;
+    border-radius: 12px;
+    width: 3em;
+    height: 3em;
+    margin:  0 1em 1em ;
+    cursor: pointer;
+  }
+  .botons {
+    display: flex;
+    justify-content: center;
+  }
+  .grid {
+    background-color: #BFC8AD;
+  }
+  .grid section {
+    text-align: center;
+    margin-bottom: 1em;
+    padding: 1rem;
+    background-color: #fdfeff;
+  }
+  .grid img {
+    width: 50%;
+    height: auto;
+    margin: auto;
+  }
+  
+  
+  .list section {
+    margin: 0;
+    margin-bottom: 1em;
+    text-align: center;
+    padding: 1.1rem;
+    
+  }
+  
+  .list section:nth-child(even) {
+    background-color: #BFC8AD;
+  }
+  .list h2 {
+    color: #000;
+    font-family: "Roboto", cursive;
+    font-size: 1em;
+    font-weight: 400;
+    margin: 0;
+  }
+  .list img {
+    display: none;
+  }
+
+
+  /*----------- CONTACT US --------------*/
+
+
+  main .contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-us h3 {
+    font-size: 1.2rem;
+    
+  }
+
+  .contact-us h4 {
+    margin-top: 0.5rem;
+  }
+
+  .contact-us h5 {
+    margin-bottom: 0.1rem;
+    letter-spacing: 0;
+  }
+
+  .address {
+    margin-bottom: 1.2rem;
+    text-align: center;
+  }
+
+  .contact-us h4:last-child {
+    margin-top: 1.2rem;
+    text-align: center;
+  }
+
+  .gmap {
+    display: block;
+    overflow: hidden;
+    background: none !important;
+
+  }
+  .gmap picture img{
+    display: block;
+    width: 100%;
+  }
+
+  main section.contact-info{
+    border: 0;
+  }
+
+  .contact-info div h5, p{
+    text-align: center;
+  }
+
+  .contact-info div h5, .contact-info div p a, .contact-info .address a{
+    margin-top: 1rem;
+    
+    text-decoration: none;
+  }
+
+  div.contact_form{
+    margin-top: 3rem;
+  }
+
+  div.contact_form input.submitBtn{
+    margin: 0.7rem auto;
+    width: 100%;
+  }
+  
+  /* ---------- FOOTER ---------- */
+  footer {
+    background-color: #545775;
+    color: #fff;
+    padding: 1.5rem 2vw;
+    border-top: 20px solid #BFC8AD;
+    text-align: center;
+  }
+  
+  footer img {
+    width: 100px;
+  }
+
+  footer a {
+    color: #fff;
+  }
