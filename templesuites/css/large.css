@@ -107,6 +107,22 @@
       grid-row: 2/3;
     }
 
+    /* ------- MISSIONARY -------- */
+
+    .mission-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+    }
+
+    .mission-info {
+      grid-column: 1/2;
+    }
+
+    .mission-img {
+      grid-column: 2/3;
+    }
+
   
     /* ---------- FOOTER ---------- */
     footer {

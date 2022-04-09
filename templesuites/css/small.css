@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@200&display=swap');
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS. */
 html {
@@ -16,12 +16,12 @@ html {
   /* ---------- BODY ---------- */
   body {
     font-size: 16px;
-    font-family: 'Dongle', sans-serif;
+    font-family: 'Anek Tamil', sans-serif;
   }
   
   /* ---------- HEADER ---------- */
   header {
-    background-color: #545775;
+    background-color: #FE5D26;
     color: #fff;
     padding-top: 0.5rem;
   }
@@ -48,7 +48,7 @@ html {
   }
   
   header h2.date {
-    color: #90B494;
+    color: #F2C078;
     text-align: center;
     font-size: 1.3rem;
   }
@@ -67,7 +67,7 @@ html {
   
   /* ---------- NAVIGATION ---------- */
   nav {
-    background-color: #BFC8AD;
+    background-color: #F2C078;
   }
   
   nav ul {
@@ -89,16 +89,17 @@ html {
     font-weight: bold;
     padding: 0.8rem 2vw;
     text-decoration: none;
-    color: #fff;
+    color: #0b010c;
     text-align: center;
   }
   
   nav ul li.active {
-    background-color: #DBCFB0;
+    background-color: #FAEDCA;
+    
   }
   
   nav ul li a:hover {
-    background-color: #DBCFB0;
+    background-color: #FAEDCA;
     color: #0b010c;
   }
   
@@ -135,12 +136,12 @@ html {
   }
   
   main section.colored {
-    background-color: #545775;
+    background-color: #FE5D26;
     color: #fff;
   }
   
   main section.colored h2 {
-    color: #90B494;
+    color: #F2C078;
   }
   
   main section h2,
@@ -179,7 +180,7 @@ html {
     font-size: 1.1rem;
   }
   .btn {
-    background-color: #0a4f77da;
+    background-color: #FE5D26;
     color: #ffffff;
     padding: 0.5rem;
     border-radius: 4px 4px 4px 4px;
@@ -211,7 +212,7 @@ html {
     border: solid 1px;
     border-radius: 8px;
     padding: .75rem 40px;
-    color: #545775;
+    color: #FE5D26;
     width: 100%;
     max-width: 25rem;
     background-color: rgba(48, 155, 226, 0.13);
@@ -225,10 +226,10 @@ html {
     padding: 0.5rem;
   }
   form label.top input:required, form textarea{
-    border: #545775 1.5px;
+    border: #FE5D26 1.5px;
   }
   .options-member{
-    border: #545775 1.5px;
+    border: #FE5D26 1.5px;
     margin-top: 1.5rem;
     width: 100%;
     max-width: 25rem;
@@ -237,13 +238,13 @@ html {
   }
 
   form label.top input:required:valid, form label.top textarea:required:valid{
-    border: #BFC8AD 1.5px;
-    border-left: #BFC8AD 8px;
+    border: #F2C078 1.5px;
+    border-left: #F2C078 8px;
   }
 
   form input.submitBtn{
     border: none;
-    background-color: #545775;
+    background-color: #FE5D26;
     color: white;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
@@ -270,7 +271,7 @@ html {
   }
   .thanks a {
     color: white;
-    background-color: #545775;
+    background-color: #FE5D26;
     padding: 12px 30px;
     text-transform: uppercase;
     border-radius: 50px;
@@ -286,8 +287,8 @@ html {
   }
   
   #gridMode{
-    background-color: #BFC8AD;
-    border: 2px solid #545775;
+    background-color: #F2C078;
+    border: 2px solid #FE5D26;
     border-radius: 12px;
     width: 3em;
     height: 3em;
@@ -296,7 +297,7 @@ html {
   }
   
   .grid {
-    background-color: #BFC8AD;
+    background-color: #F2C078;
   }
   .grid section {
     text-align: center;
@@ -315,12 +316,12 @@ html {
   /*----------- RECEPTIONS --------------*/
 
   main div.colored {
-    background-color: #545775;
+    background-color: #FE5D26;
     color: #fff;
   }
   
   main div.colored h2 {
-    color: #90B494;
+    color: #F2C078;
   }
 
   .reception-summary, .reception-grid p {
@@ -331,13 +332,22 @@ html {
     padding: 1rem;
   }
 
+  /* --------- MISSIONARY --------- */
+
+  h5 {
+    font-size: 1.1rem;
+  }
+
+  .mission-grid p {
+    font-size: 1.1rem;
+  }
   
   /* ---------- FOOTER ---------- */
   footer {
-    background-color: #545775;
+    background-color: #FE5D26;
     color: #fff;
     padding: 1.5rem 2vw;
-    border-top: 20px solid #BFC8AD;
+    border-top: 20px solid #F2C078;
     text-align: center;
   }
   
