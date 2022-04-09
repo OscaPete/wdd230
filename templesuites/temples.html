@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Temple page of the Temple Inn and Suites site"
+    />
+    <meta name="author" content="Oscar Peterson" />
+
+    <title>Temples | Temple Inn and Suites</title>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-content">
+        <img src="images/templeinnlogo.png" alt="temple inn logo" />
+        <h1>Temple Inn and Suites</h1>
+        <h2>Temple Trips Made Easy</h2>
+        <h2 class="date"><span id="currentDate"></span></h2>
+      </div>
+
+      <nav>
+        <button id="menuButton"><span>&#9776;</span><span>X</span></button>
+        <ul id="mainNav">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="temples.html">Temples</a></li>
+          <li><a href="#">Reservations</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Receptions</a></li>
+          <li><a href="#">Temple Missionaries</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="temples-font">
+        <h1>Directory</h1>
+          <div class="botons">
+              <button id="gridMode"><img src="images/grid-icon.png" alt="grid-icon" width="20" height="20"></button>
+              <button id="listMode"><img src='images/list-icon.png' alt="list icon" width="20" height="20"></button>
+          </div>
+          <div class="shops grid" id="on"></div>
+  
+  
+          
+      </main>
+
+    <footer>
+        <div class="footer-content-1">
+          <div class="footer-logo-side">
+            <img src="images/templeinnlogo.png" alt="temple inn logo" />
+            <p>Temple Inn and Suites<br />Bethesda, MD<br /><a href="https://support.google.com/maps/answer/144361?co=GENIE.Platform%3dDesktop&hl=en">Map</a></p>
+          </div>
+          <div class="footer-contact-side">
+            <p>thisisafakeemail@gmail.com<br />(123) 456-7890</p>
+          </div>
+        </div>
+        <p>
+          &copy; <span id="currentYear"></span> Temple Inn and Suites | Oscar
+          Peterson | WDD 230
+        </p>
+      </footer>
+      <script src="js/temples.js"></script>
+      <script src="js/homeScript.js"></script>
+    </body>
+  </html>
