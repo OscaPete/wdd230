@@ -285,7 +285,7 @@ html {
     text-align: center;
   }
   
-  #gridMode, #listMode{
+  #gridMode{
     background-color: #BFC8AD;
     border: 2px solid #545775;
     border-radius: 12px;
@@ -294,10 +294,7 @@ html {
     margin:  0 1em 1em ;
     cursor: pointer;
   }
-  .botons {
-    display: flex;
-    justify-content: center;
-  }
+  
   .grid {
     background-color: #BFC8AD;
   }
@@ -313,29 +310,7 @@ html {
     margin: auto;
   }
   
-  
-  .list section {
-    margin: 0;
-    margin-bottom: 1em;
-    text-align: center;
-    padding: 1.1rem;
-    
-  }
-  
-  .list section:nth-child(even) {
-    background-color: #BFC8AD;
-  }
-  .list h2 {
-    color: #000;
-    font-family: "Roboto", cursive;
-    font-size: 1em;
-    font-weight: 400;
-    margin: 0;
-  }
-  .list img {
-    display: none;
-  }
-
+ 
 
   /*----------- CONTACT US --------------*/
 

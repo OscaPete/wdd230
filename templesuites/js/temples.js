@@ -45,9 +45,7 @@ function displayTemples(comp){
   
 }
 
-let gridBtn = document.querySelector("#gridMode");
-let listBtn = document.querySelector("#listMode");
-let onOff = document.querySelector("#on");
+
 
 function resize() {
   if (window.innerWidth > 559 && window.innerWidth < 1028) {
@@ -59,9 +57,3 @@ function resize() {
 resize();
 window.onresize = resize;
 
-listBtn.addEventListener("click", () => {
-  onOff.setAttribute("class", "list");
-});
-gridBtn.addEventListener("click", () => {
-  onOff.setAttribute("class", "grid");
-});

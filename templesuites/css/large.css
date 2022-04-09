@@ -78,19 +78,13 @@
       grid-row: 2/3;
     }
 
-    /*----------- GRID MODE --------------*/
+    /*----------- TEMPLES --------------*/
     .grid {
       max-width: 64rem;
       margin: auto;
       grid-template-columns: repeat(2, 1fr);
     }
 
-
-    /*----------- LIST MODE --------------*/
-    .list {
-    max-width: 64rem;
-    margin: auto;
-    }
   
     /* ---------- FOOTER ---------- */
     footer {
