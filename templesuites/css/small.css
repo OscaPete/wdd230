@@ -185,17 +185,8 @@ html {
     border-radius: 4px 4px 4px 4px;
   }
 
-  /* ---------- DISCOVER ---------- */
-  .discover-grid img:hover {
-    box-shadow: 0 0 50px #333; cursor: pointer;
-  }
-
-  .discover-grid img {
-    max-width: 100%;
-    padding: 0.5rem;
-  }
-
-  .discover-description p {
+  /* ---------- SERVICES ---------- */
+  .service-headline p, .service-list ul, .amenity-list ul {
     font-size: 1.1rem;
   }
 

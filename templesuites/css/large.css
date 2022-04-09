@@ -56,11 +56,27 @@
       grid-row: 3/4;
     }
 
-    /* ---------- DISCOVER ---------- */
-    .discover-grid {
-      grid-template-columns: 1fr 1fr 1fr;
+    /* ---------- SERVICES ---------- */
+    .service-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       gap: 4rem;
   }
+
+    .service-headline {
+      grid-column: 1/3;
+      grid-row: 1/2;
+    }
+
+    .service-list {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+
+    .amenity-list {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
 
     /*----------- GRID MODE --------------*/
     .grid {

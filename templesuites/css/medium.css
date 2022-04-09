@@ -59,15 +59,6 @@
       margin-bottom: 0;
     }
 
-    /* ---------- DISCOVER ---------- */
-  .discover-grid img {
-    max-width: 300px;
-  }
-
-  .discover-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
 
   /*----------- GRID MODE --------------*/
 
