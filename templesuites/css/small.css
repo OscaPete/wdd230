@@ -312,73 +312,25 @@ html {
   
  
 
-  /*----------- CONTACT US --------------*/
+  /*----------- RECEPTIONS --------------*/
 
-
-  main .contact-us {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  main div.colored {
+    background-color: #545775;
+    color: #fff;
+  }
+  
+  main div.colored h2 {
+    color: #90B494;
   }
 
-  .contact-us h3 {
-    font-size: 1.2rem;
-    
+  .reception-summary, .reception-grid p {
+    font-size: 1.1rem;
   }
 
-  .contact-us h4 {
-    margin-top: 0.5rem;
+  div.colored h2, div.colored p {
+    padding: 1rem;
   }
 
-  .contact-us h5 {
-    margin-bottom: 0.1rem;
-    letter-spacing: 0;
-  }
-
-  .address {
-    margin-bottom: 1.2rem;
-    text-align: center;
-  }
-
-  .contact-us h4:last-child {
-    margin-top: 1.2rem;
-    text-align: center;
-  }
-
-  .gmap {
-    display: block;
-    overflow: hidden;
-    background: none !important;
-
-  }
-  .gmap picture img{
-    display: block;
-    width: 100%;
-  }
-
-  main section.contact-info{
-    border: 0;
-  }
-
-  .contact-info div h5, p{
-    text-align: center;
-  }
-
-  .contact-info div h5, .contact-info div p a, .contact-info .address a{
-    margin-top: 1rem;
-    
-    text-decoration: none;
-  }
-
-  div.contact_form{
-    margin-top: 3rem;
-  }
-
-  div.contact_form input.submitBtn{
-    margin: 0.7rem auto;
-    width: 100%;
-  }
   
   /* ---------- FOOTER ---------- */
   footer {

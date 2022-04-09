@@ -85,6 +85,28 @@
       grid-template-columns: repeat(2, 1fr);
     }
 
+    /* --------- RECEPTIONS ---------- */
+
+    .reception-hall {
+      grid-column: 1/3;
+      grid-row: 1/2;
+    }
+  
+    .reception-food {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+  
+    .reception-setup {
+      grid-column: 1/3;
+      grid-row: 3/4;
+    }
+  
+    .cater-options {
+      grid-column: 2/3;
+      grid-row: 2/3;
+    }
+
   
     /* ---------- FOOTER ---------- */
     footer {
